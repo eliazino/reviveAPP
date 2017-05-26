@@ -1,0 +1,22 @@
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\Revive Ui.exe.config
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\obj\x86\Debug\Revive Ui.exe
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\obj\x86\Debug\Revive Ui.pdb
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\obj\x86\Debug\Revive Ui.csprojResolveAssemblyReference.cache
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\obj\x86\Debug\Revive_Ui.Form1.resources
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\obj\x86\Debug\Revive_Ui.Form2.resources
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\obj\x86\Debug\Revive_Ui.Form3.resources
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\obj\x86\Debug\Revive_Ui.cPrompt.resources
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\obj\x86\Debug\Revive_Ui.Properties.Resources.resources
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\obj\x86\Debug\Revive Ui.csproj.GenerateResource.Cache
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\Revive Ui.exe
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\Revive Ui.pdb
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\MetroFramework.dll
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\Newtonsoft.Json.dll
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Data.SQLite.dll
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Web.Http.dll
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\Newtonsoft.Json.xml
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Data.SQLite.xml
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Web.Http.xml
