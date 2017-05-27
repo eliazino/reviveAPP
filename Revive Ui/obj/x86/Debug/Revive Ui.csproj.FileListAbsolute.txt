@@ -14,9 +14,5 @@ C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug
 C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\Newtonsoft.Json.dll
 C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Data.SQLite.dll
-C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Web.Http.dll
 C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\Newtonsoft.Json.xml
 C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Data.SQLite.xml
-C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\waheed\Desktop\some_folder\Works\seesharp\Revive Ui\Revive Ui\bin\Debug\System.Web.Http.xml

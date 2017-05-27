@@ -104,7 +104,7 @@ namespace Revive_Ui
                         MessageBox.Show(emx.Message, "Exception!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }else{
-                    MessageBox.Show(serverResponse.ToString(), "Server Response", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Access Denied. Incorrect username or passord", "Server Response", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     conf = false;
                 }
             }catch(Exception Ex){

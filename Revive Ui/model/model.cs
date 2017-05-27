@@ -270,7 +270,28 @@ namespace Revive_Ui.model
                 return data;
             }
         }
-        public dataTables fetchMaterials(string statement){
+
+		public string[] fetchProfile(string statement){
+			string[] agentProf = new string[2];
+			try
+			{
+				SQLiteConnection con = _generateCon();
+				SQLiteCommand command = _generateCom(con);
+				con.Open();
+				command.CommandText = statement;
+				SQLiteDataReader fetch = command.ExecuteReader();
+				while (fetch.Read()){
+					agentProf[0] = fetch["balance"].ToString();
+					agentProf[1] = fetch["device_ID"].ToString();
+				}
+				con.Close();
+				return agentProf;
+			}catch (Exception){
+				return agentProf;
+			}
+		}
+
+		public dataTables fetchMaterials(string statement){
             var data = new dataTables();
             var mnames = new List<string>();
             var mIDs = new List<string>();
@@ -297,5 +318,55 @@ namespace Revive_Ui.model
                 return data;
             }
         }
-    }
+
+		public strFormater writeTransactions(string statement){
+			var data = new strFormater();
+			var amount = new List<string>();
+			var cardCharge = new List<string>();
+			var cardBalance = new List<string>();
+			var ttime = new List<string>();
+			var transcode = new List<string>();
+			var deviceCharge = new List<string>();
+			var usertype = new List<string>();
+			var companies = new List<string>();
+			var transType = new List<string>();
+			var Cardserial = new List<string>();
+			var deviceID = new List<string>();
+			var agentID = new List<string>();
+			profile profi = new profile();
+			var prodat = profi.profiler();
+			string balance = profi.agentbalance;
+			string uid = profi.agentUserID;
+			string devid = profi.deviceID;
+			try
+			{
+				SQLiteConnection con = _generateCon();
+				SQLiteCommand command = _generateCom(con);
+				con.Open();
+				command.CommandText = statement;
+				SQLiteDataReader fetch = command.ExecuteReader();
+				while (fetch.Read()){
+					amount.Add(fetch["amountDue"].ToString());
+					cardCharge.Add("0");
+					cardBalance.Add(balance);
+					ttime.Add(fetch["transactionTime"].ToString());
+					transcode.Add(fetch["transCode"].ToString());
+					deviceCharge.Add((Double.Parse(fetch["amountDue"].ToString())*0.03).ToString());
+					usertype.Add("company");
+					companies.Add(fetch["company"].ToString());
+					transType.Add(fetch["transaction_type"].ToString());
+					Cardserial.Add(fetch["card_serial"].ToString());
+					deviceID.Add(devid);
+					agentID.Add(uid);
+					data.setParams(amount.ToArray(), cardCharge.ToArray(), cardBalance.ToArray(), ttime.ToArray(), transcode.ToArray(), deviceCharge.ToArray(), usertype.ToArray(), companies.ToArray(), transType.ToArray(), Cardserial.ToArray(), deviceID.ToArray(), agentID.ToArray());
+				}
+				con.Close();
+				return data;
+			}
+			catch (Exception)
+			{
+				return data;
+			}
+		}
+	}
 }
